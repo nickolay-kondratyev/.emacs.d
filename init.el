@@ -87,16 +87,16 @@
 
 ;;;;;;;;ECB;;;;;;;;
 ;;http://stackoverflow.com/questions/3134026/emacs-23-2-with-ecb-2-40-file-error-cannot-open-load-file-semantic-ctxt
-(require 'semantic/analyze)
-(provide 'semantic-analyze)
-(provide 'semantic-ctxt)
-(provide 'semanticdb)
-(provide 'semanticdb-find)
-(provide 'semanticdb-mode)
-(provide 'semantic-load)
+;;(require 'semantic/analyze)
+;;(provide 'semantic-analyze)
+;;(provide 'semantic-ctxt)
+;;(provide 'semanticdb)
+;;(provide 'semanticdb-find)
+;;(provide 'semanticdb-mode)
+;;(provide 'semantic-load)
 
 
-(add-to-list 'load-path "~/.emacs.d/plugins/ecb_2_40/")
+(add-to-list 'load-path "~/.emacs.d/plugins/ecb-master/")
 
 ;;(require 'ecb)
 ;;If you want to load the complete ECB at (X)Emacs-loadtime
@@ -113,3 +113,15 @@
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/plugins/auto_complete//ac-dict")
 (ac-config-default)
 ;;;;;;;;auto-complete end;;;;;;;;
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ecb-options-version "2.40"))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
