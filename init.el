@@ -85,6 +85,27 @@
 ;;; minimial-cedet-config.el ends here
 ;;;;;;;;CEDET end;;;;;;;;
 
+;;;;;;;;ECB;;;;;;;;
+;;http://stackoverflow.com/questions/3134026/emacs-23-2-with-ecb-2-40-file-error-cannot-open-load-file-semantic-ctxt
+(require 'semantic/analyze)
+(provide 'semantic-analyze)
+(provide 'semantic-ctxt)
+(provide 'semanticdb)
+(provide 'semanticdb-find)
+(provide 'semanticdb-mode)
+(provide 'semantic-load)
+
+
+(add-to-list 'load-path "~/.emacs.d/plugins/ecb_2_40/")
+
+;;(require 'ecb)
+;;If you want to load the complete ECB at (X)Emacs-loadtime
+;;(Advantage: All ECB-options available after loading ECB. Disadvantage: Increasing loadtime2): 
+(require 'ecb)
+
+
+;;;;;;;;ECB end;;;;;;;;
+
 ;;;;;;;;auto-complete;;;;;;;;
 ;;Enable default auto complete
 (add-to-list 'load-path "~/.emacs.d/plugins/auto_complete/")
