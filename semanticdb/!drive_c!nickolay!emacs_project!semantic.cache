@@ -1,0 +1,26 @@
+;; Object emacs_project/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "emacs_project/"
+  :tables
+  (list
+    (semanticdb-table "main.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [22 75]))          
+      :file "main.cpp"
+      :pointmax 78
+      :fsize 85
+      :lastmodtime '(21084 29839 0 0)
+      :unmatched-syntax '((symbol 75 . 77)))
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-gmake-mode
+      :tags nil
+      :file "Makefile"
+      :pointmax 1
+      :fsize 762
+      :lastmodtime '(21084 28348 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!nickolay!emacs_project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

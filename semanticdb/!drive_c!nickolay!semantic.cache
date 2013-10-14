@@ -1,0 +1,31 @@
+;; Object nickolay/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "nickolay/"
+  :tables
+  (list
+    (semanticdb-table "deleteme.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("Glob" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [36 43])
+                    ("DoStuff" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [46 61])
+                    ("DoMoreStuff" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [64 83]))                  
+                :type "class")
+                nil [23 86])
+            ("main" function (:type "int") nil [89 160]))          
+      :file "deleteme.cpp"
+      :pointmax 147
+      :fsize 160
+      :lastmodtime '(21084 28906 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!nickolay!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
