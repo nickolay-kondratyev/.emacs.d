@@ -169,3 +169,10 @@
 ;;(setq make-backup-files nil) ;; stop creating those backup~ files
 ;;(setq auto-save-default nil) ;; stop creating those #auto-save# files
 ;;;;;;;;backup configuration end;;;;;;;;
+
+;;;;;;;;icicles;;;;;;;;
+(add-to-list 'load-path "~/.emacs.d/plugins/icicles/")
+(require 'icicles)
+(icy-mode 1)
+;;;;;;;;icicles end;;;;;;;;
+
