@@ -173,6 +173,21 @@
 ;;;;;;;;icicles;;;;;;;;
 (add-to-list 'load-path "~/.emacs.d/plugins/icicles/")
 (require 'icicles)
-(icy-mode 1)
+;;(icy-mode 1)
 ;;;;;;;;icicles end;;;;;;;;
+
+;;;;;;;;Global;;;;;;;;
+;;Gnu Global is currently disabled in favor of trying out CScope
+;;(load-file "~/.emacs.d/plugins/ggtags-0.6.7.el")
+;; (add-hook 'gtags-mode-hook 
+;;   (lambda()
+;;     (local-set-key (kbd "M-.") 'gtags-find-tag)   ; find a tag, also M-.
+;;     (local-set-key (kbd "M-,") 'gtags-find-rtag)))  ; reverse tag
+;;;;;;;;Global end;;;;;;;;
+
+;;;;;;;;CScope;;;;;;;;
+(load-file "~/.emacs.d/plugins/xcscope.elc")
+(require 'xcscope)
+;;;;;;;;CScope end;;;;;;;;
+
 
