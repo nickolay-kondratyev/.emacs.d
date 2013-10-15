@@ -107,7 +107,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ecb-options-version "2.40")
- '(ede-project-directories (quote ("c:/nickolay/emacs_project"))))
+ '(ede-project-directories (quote ("/home/nickolay/first_emacs_proj" "/home/nickolay/delete_me_dir" "c:/nickolay/emacs_project"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -163,5 +163,9 @@
 (provide 'color-theme-sons-of-obsidian)
 
 (color-theme-sons-of-obsidian)
-
 ;;;;;;;;son-of-obsidean-color-theme end;;;;;;;;
+
+;;;;;;;;backup configuration;;;;;;;;
+;;(setq make-backup-files nil) ;; stop creating those backup~ files
+;;(setq auto-save-default nil) ;; stop creating those #auto-save# files
+;;;;;;;;backup configuration end;;;;;;;;
