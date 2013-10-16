@@ -192,7 +192,7 @@
 
 ;;;;;;;;yasnippet;;;;;;;;
 (add-to-list 'load-path
-              "~/.emacs.d/plugins/yasnippet")
+              "~/.emacs.d/plugins/yasnippet_")
 (require 'yasnippet)
 (yas-global-mode 1)
 ;;;;;;;;yasnippet end;;;;;;;;
