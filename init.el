@@ -106,7 +106,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ecb-layout-name "left15")
  '(ecb-options-version "2.40")
+ '(ecb-use-speedbar-instead-native-tree-buffer (quote dir))
  '(ede-project-directories (quote ("/home/nickolay/first_emacs_proj" "/home/nickolay/delete_me_dir" "c:/nickolay/emacs_project"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
